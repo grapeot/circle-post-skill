@@ -78,3 +78,7 @@ Private defaults such as production space IDs, test space IDs, notification poli
 ```
 
 The default test suite is offline and does not require `CIRCLE_V2_TOKEN`.
+
+## API Reference
+
+Use Circle's official Admin API documentation as the source of truth. This repository intentionally does not vendor a full OpenAPI/Swagger dump, keeping the public repo small and reviewable.

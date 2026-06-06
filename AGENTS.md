@@ -19,6 +19,8 @@ uv pip install --python .venv/bin/python pytest
 
 Do not commit `.env`, converted article JSON, generated content, logs, local data, screenshots, or real Circle post exports. Use `.env.example` for fake configuration examples.
 
+Do not vendor large third-party API specs or generated dumps. Link to official docs instead so pull requests stay reviewable.
+
 ## Public Repo Privacy
 
 This repository is intended to be public. Keep examples synthetic and generic. Do not add real Circle tokens, real community names, real space IDs, real post IDs, private local paths, private domains, private article titles, operational logs, or workspace-specific publishing defaults.
